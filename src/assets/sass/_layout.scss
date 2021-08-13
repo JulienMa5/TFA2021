@@ -1,4 +1,6 @@
-title{
+@use  "_var.scss" as v;
+
+h1{
     font-size: 50px;
-    color: cyan;
+    color: v.$color-fourth;
 }
